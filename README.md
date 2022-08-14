@@ -25,4 +25,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 Application deployed on Vercel 
 
-Application url -> [https://github.com/timiodubola/startup-tasks-phase/deployments/activity_log?environment=Production](https://github.com/timiodubola/startup-tasks-phase/deployments/activity_log?environment=Production)
+Application url -> [https://startup-tasks-phase-9fkdr7rc8-timiodubola.vercel.app/](https://startup-tasks-phase-9fkdr7rc8-timiodubola.vercel.app/)
