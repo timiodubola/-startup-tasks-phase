@@ -6,17 +6,26 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "jest",
+    "test:c": "jest --coverage",
+    "test:w": "jest --watch --coverage"
   },
   "dependencies": {
     "next": "12.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "styled-components": "^5.3.3",
-    	"swr": "^1.2.2"
+    "swr": "^1.2.2"
   },
   "devDependencies": {
     "eslint": "8.21.0",
-    "eslint-config-next": "12.2.5"
+    "eslint-config-next": "12.2.5",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "react-test-renderer": "^17.0.2"
   }
 }
