@@ -49,6 +49,8 @@ export default function Home() {
           })}
         </ul>
 
+        {randomFact ? <p>{randomFact}</p> : null}
+
         {loading && <Spin className='spinner' />}
       </StyledHomePage>
     </PageWrapper>
