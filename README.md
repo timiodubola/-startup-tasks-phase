@@ -1,8 +1,16 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+The startup-tasks-phase mini app is built using NextJS a React framework.
 
-## Getting Started
+## Test application locally 
 
-First, run the development server:
+First, install application dependency:
+
+```bash
+run npm install
+# or
+run yarn 
+```
+
+Second, start the development server:
 
 ```bash
 npm run dev
@@ -13,7 +21,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-### Test deployed application 
+## Test deployed application 
 
 Application deployed on Vercel 
 
