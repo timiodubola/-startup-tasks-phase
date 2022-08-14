@@ -12,9 +12,9 @@ export default function Home() {
     return <Spin />;
   }
   return (
-    <PageWrapper title='My startup progress'>
+    <PageWrapper title='My startup phases'>
       <StyledHomePage>
-        <h1>My startup progress</h1>
+        <h1>My startup phase</h1>
 
         <ul className='phases'>
           {data.startUpPhases.map((phase, index) => {
